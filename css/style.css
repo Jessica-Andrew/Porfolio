@@ -1,0 +1,38 @@
+/* CSS Document */
+
+body {
+    background-color: 2D2C2C;
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* about section */
+.left {
+    background-image: url("images\jecy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 38.2%;
+}
+
+.middle {
+    float: left;
+    width: 44.44%;
+}
+
+.right{
+    float: right;
+    width: 17.36%;
+    height: auto;
+}
+
+
