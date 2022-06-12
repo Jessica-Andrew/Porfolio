@@ -61,20 +61,68 @@ a {
     display: block;
     background: #EB5E28;
     color: white;
-    padding: 20px 40px;
-    margin: 20px;
+    padding: 12px 100px;
     position: relative;
+    font-weight: 700;
 }
 
+.left .contact-me:hover {
+    color: #EB5E28;
+    background-color: #FFFCF2;
+    border: 1px solid #EB5E28;
+}
 
 .middle {
     flex: 1;
     background: #CCC5B9;
-    padding: 100px 50px;
+    padding: 40px 50px;
+}
+
+.middle .my-name {
+    font-size: 36px;
+    font-weight: 400;
+    color: #252422;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.middle .subtext {
+    font-size: 20px;
+    font-weight: 400;
+    color: #252422;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+
+.middle p {
+    font-size: 16px;
+    color: #252422;
+}
+
+.middle .hobbies {
+    color: #252422;
+    margin: 30px 0 30px 0;
+}
+
+.middle .hobbies h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .skills h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 
 .middle .hobbies ul {
     list-style-type: disc;
+    margin-top: 10px;
 }
 
 .middle .skills ul {
@@ -83,10 +131,15 @@ a {
 
 .middle .skills ul li {
     margin-bottom: 20px;
+    color: #252422;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
 }
 
 .middle .skills ul p {
     margin: 0;
+    color: #252422;
 }
 
 .progress {
@@ -134,8 +187,6 @@ a {
     color: black;
 }
 
-
-
 .right .socials {
     position: absolute;
     bottom: 100px;
@@ -150,4 +201,129 @@ a {
 .right .socials a {
     display: block;
     margin: 10px 0;
+}
+
+/* Contact Section */
+
+.middle .scale-up {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .scale-up span {
+    font-size: 36px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+ margin-top: 40px;
+}
+
+input, select {
+    background: #FFFCF2;
+    width: 560px;
+    padding: 10px 0px 10px 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC5B9;
+    border: 1px solid #FFFCF2;
+
+}
+
+textarea#message {
+    background: #FFFCF2;
+    width: 560px;
+    padding: 10px 0px 10px 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC5B9;
+    border: 1px solid #FFFCF2;
+}
+
+.middle label {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #252422;
+}
+
+.middle label {
+    padding: 0;
+    display: inline-block;
+  }
+
+.middle .let-talk, .register, .login {
+    display: block;
+    background: #252422;
+    color: white;
+    padding: 12px 0;
+    width: 560px;
+    position: relative;
+    font-weight: 700;
+}
+
+.middle .let-talk:hover, .register:hover, .login:hover {
+    background: #403D39;
+    border: 1px solid #403D39;
+    ;
+}
+
+/* Register Section */
+
+.middle .reg {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .create {
+    font-size: 16px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding: 10px 0 0px 0;
+}
+
+#register {
+    margin: 40px 0;
+}
+
+/* Login Section */
+
+.middle .signin {
+    font-size: 36px;
+    font-weight: 700;
+    color: #252422;
+    margin: 0;
+    padding: 0;
+}
+
+.middle .continue {
+    font-size: 16px;
+    font-weight: 400;
+    color: #252422;
+    margin: 0;
+    padding: 10px 0 0px 0;
+}
+
+#login {
+    margin: 40px 0 100px 0;
+}
+
+.middle #forgotten-password {
+    font-size: 12px;
+    font-weight: 400;
+    color: #403D39;
+    text-align: center;
 }
