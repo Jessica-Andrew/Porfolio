@@ -76,6 +76,8 @@ a {
     flex: 1;
     background: #CCC5B9;
     padding: 40px 50px;
+    max-height: 100vh;
+    overflow: auto;
 }
 
 .middle .my-name {
@@ -222,30 +224,32 @@ a {
 }
 
 #contact {
- margin-top: 40px;
+    margin-top: 40px;
 }
 
 input, select {
     background: #FFFCF2;
-    width: 560px;
+    width: 100%;
     padding: 10px 0px 10px 30px;
     font-family: 'Space Mono', monospace;
     font-size: 12px;
     font-weight: 400;
     color: #CCC5B9;
     border: 1px solid #FFFCF2;
+    margin-bottom: 20px;
 
 }
 
 textarea#message {
     background: #FFFCF2;
-    width: 560px;
+    width: 100%;
     padding: 10px 0px 10px 30px;
     font-family: 'Space Mono', monospace;
     font-size: 12px;
     font-weight: 400;
     color: #CCC5B9;
     border: 1px solid #FFFCF2;
+    margin-bottom: 20px;
 }
 
 .middle label {
@@ -254,22 +258,27 @@ textarea#message {
     margin: 0;
     padding: 0;
     color: #252422;
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-.middle label {
-    padding: 0;
-    display: inline-block;
-  }
+
 
 .middle .let-talk, .register, .login {
     display: block;
     background: #252422;
     color: white;
     padding: 12px 0;
-    width: 560px;
+    width: 100%;
     position: relative;
     font-weight: 700;
+    outline: 0;
+    border: 0;
 }
+
+
 
 .middle .let-talk:hover, .register:hover, .login:hover {
     background: #403D39;
@@ -314,7 +323,7 @@ textarea#message {
     font-weight: 400;
     color: #252422;
     margin: 0;
-    padding: 10px 0 0px 0;
+    padding-top: 10px;
 }
 
 #login {
